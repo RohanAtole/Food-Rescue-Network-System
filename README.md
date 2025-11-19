@@ -75,6 +75,16 @@ Food Rescue Network System/
     │
     └── index.php
 ```
+---
+
+## 🧪 Testing Guidelines
+
+| Module | Test Scenario | Expected Result |
+|--------|---------------|------------------|
+| Donor | Submit donation form | Data stored & confirmation shown |
+| Charity | Request food | Request saved & visible to admin |
+| Admin | Approve donor/charity | Status updated correctly |
+| Login | Wrong password | Shows error message |
 
 ---
 
@@ -153,10 +163,12 @@ http://localhost/Food-Rescue-Network-System/
 
 ---
 
-## 👨‍💻 Developer
+## 📬 Contact
 
-**Name:** Rohan Atole  
-**GitHub:** [RohanAtole](https://github.com/RohanAtole)
+📛 **Developer:** Rohan Atole  
+📧 **Email:** atolerohan2003@gmail.com  
+🌐 **GitHub:** [RohanAtole](https://github.com/RohanAtole)  
+📍 **Location:** Maharashtra, India  
 
 ---
 
