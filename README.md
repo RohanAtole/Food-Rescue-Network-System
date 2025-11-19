@@ -81,9 +81,9 @@ Food Rescue Network System/
 
 ```bash
 git clone https://github.com/RohanAtole/Food-Rescue-Network-System.git
-
-### 2️⃣ Move the folder to server directory
 ```
+### 2️⃣ Move the folder to server directory
+
 For XAMPP → htdocs/
 
 For WAMP → www/
