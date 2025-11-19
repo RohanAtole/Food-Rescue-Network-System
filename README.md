@@ -30,49 +30,52 @@ Built using **PHP, HTML, CSS, Bootstrap, and MySQL**, this system provides role-
 
 ## 📁 Project Structure (As-Is)
 
+```
 Food Rescue Network System/
 └── code files/
-├── admin/
-│ ├── adminlogin.php
-│ ├── admin_dash.php
-│ ├── alldonor.php
-│ ├── allcharity.php
-│ ├── reports.php
-│ └── assets/
-│ ├── css/
-│ ├── images/
-│ └── vendor/
-│
-├── donor/
-│ ├── donorlogin.php
-│ ├── donor_dashboard.php
-│ ├── donate_food.php
-│ └── donor_profile.php
-│
-├── charity/
-│ ├── charitylogin.php
-│ ├── charity_dashboard.php
-│ ├── request_food.php
-│ └── charity_profile.php
-│
-├── includes/
-│ ├── header.php
-│ ├── footer.php
-│ ├── navbar.php
-│ └── session.php
-│
-├── config/
-│ └── db.php
-│
-├── assets/
-│ ├── css/
-│ ├── js/
-│ └── images/
-│
-├── sql/
-│ └── food_rescue_network.sql
-│
-└── index.php
+    ├── admin/
+    │   ├── adminlogin.php
+    │   ├── admin_dash.php
+    │   ├── alldonor.php
+    │   ├── allcharity.php
+    │   ├── reports.php
+    │   └── assets/
+    │       ├── css/
+    │       ├── images/
+    │       └── vendor/
+    │
+    ├── donor/
+    │   ├── donorlogin.php
+    │   ├── donor_dashboard.php
+    │   ├── donate_food.php
+    │   └── donor_profile.php
+    │
+    ├── charity/
+    │   ├── charitylogin.php
+    │   ├── charity_dashboard.php
+    │   ├── request_food.php
+    │   └── charity_profile.php
+    │
+    ├── includes/
+    │   ├── header.php
+    │   ├── footer.php
+    │   ├── navbar.php
+    │   └── session.php
+    │
+    ├── config/
+    │   └── db.php
+    │
+    ├── assets/
+    │   ├── css/
+    │   ├── js/
+    │   └── images/
+    │
+    ├── sql/
+    │   └── food_rescue_network.sql
+    │
+    └── index.php
+```
+
 ---
 
 ## ⚙️ Installation Guide
@@ -108,6 +111,7 @@ $user = "root";
 $password = "";     // Default for XAMPP
 $dbname = "food";
 ```
+---
 ### 🌐 5️⃣ Run the Project
 
 Once the project files are placed correctly and the database is configured:
@@ -115,9 +119,9 @@ Once the project files are placed correctly and the database is configured:
 🖥️ Open your browser and enter the following URL:
 
 http://localhost/Food-Rescue-Network-System/
-
+---
 ## ✨ Key Features
-
+---
 ### 👤 Donor Module
 - ✔ Donate surplus food  
 - ✔ Track donation history  
