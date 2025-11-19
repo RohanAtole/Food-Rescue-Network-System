@@ -107,7 +107,7 @@ $host = "localhost";
 $user = "root";
 $password = "";     // Default for XAMPP
 $dbname = "food";
-
+```
 ### 🌐 5️⃣ Run the Project
 
 Once the project files are placed correctly and the database is configured:
