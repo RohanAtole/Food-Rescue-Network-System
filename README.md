@@ -32,49 +32,47 @@ Built using **PHP, HTML, CSS, Bootstrap, and MySQL**, this system provides role-
 
 Food Rescue Network System/
 └── code files/
-    ├── admin/
-    │   ├── adminlogin.php
-    │   ├── admin_dash.php
-    │   ├── alldonor.php
-    │   ├── allcharity.php
-    │   ├── reports.php
-    │   ├── settings.php
-    │   └── assets/
-    │       ├── css/
-    │       ├── images/
-    │       └── vendor/
-    │
-    ├── donor/
-    │   ├── donorlogin.php
-    │   ├── donor_dashboard.php
-    │   ├── donate_food.php
-    │   └── donor_profile.php
-    │
-    ├── charity/
-    │   ├── charitylogin.php
-    │   ├── charity_dashboard.php
-    │   ├── request_food.php
-    │   └── charity_profile.php
-    │
-    ├── includes/
-    │   ├── header.php
-    │   ├── footer.php
-    │   ├── navbar.php
-    │   └── session.php
-    │
-    ├── config/
-    │   └── db.php
-    │
-    ├── assets/
-    │   ├── css/
-    │   ├── js/
-    │   └── images/
-    │
-    ├── sql/
-    │   └── food_rescue_network.sql
-    │
-    └── index.php
-
+├── admin/
+│ ├── adminlogin.php
+│ ├── admin_dash.php
+│ ├── alldonor.php
+│ ├── allcharity.php
+│ ├── reports.php
+│ └── assets/
+│ ├── css/
+│ ├── images/
+│ └── vendor/
+│
+├── donor/
+│ ├── donorlogin.php
+│ ├── donor_dashboard.php
+│ ├── donate_food.php
+│ └── donor_profile.php
+│
+├── charity/
+│ ├── charitylogin.php
+│ ├── charity_dashboard.php
+│ ├── request_food.php
+│ └── charity_profile.php
+│
+├── includes/
+│ ├── header.php
+│ ├── footer.php
+│ ├── navbar.php
+│ └── session.php
+│
+├── config/
+│ └── db.php
+│
+├── assets/
+│ ├── css/
+│ ├── js/
+│ └── images/
+│
+├── sql/
+│ └── food_rescue_network.sql
+│
+└── index.php
 ---
 
 ## ⚙️ Installation Guide
@@ -85,7 +83,7 @@ Food Rescue Network System/
 git clone https://github.com/RohanAtole/Food-Rescue-Network-System.git
 
 ### 2️⃣ Move the folder to server directory
-
+```
 For XAMPP → htdocs/
 
 For WAMP → www/
