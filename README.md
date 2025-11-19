@@ -82,85 +82,80 @@ Food Rescue Network System/
 ```bash
 git clone https://github.com/RohanAtole/Food-Rescue-Network-System.git
 ```
-### 2️⃣ Move the folder to server directory
+### 📂 2️⃣ Move the Folder to Server Directory
+| Environment | Location |
+|-------------|----------|
+| XAMPP | `htdocs/` |
+| WAMP | `www/` |
+| LAMP | `/var/www/html/` |
 
-For XAMPP → htdocs/
+---
 
-For WAMP → www/
+### 🗄️ 3️⃣ Import Database
 
-### 3️⃣ Import Database
+1️⃣ Open **phpMyAdmin**  
+2️⃣ Create a new database named: `food_rescue_network`  
+3️⃣ Click **Import** → Select `sql/food_rescue_network.sql` → Click **Go**
 
-Open phpMyAdmin
+---
 
-Create database: food_rescue_network
+### 🔧 4️⃣ Configure Database Connection  
+Edit the file: `config/db.php`
 
-Import /sql/food_rescue_network.sql
-
-### 4️⃣ Configure Database Connection
-
-Edit config/db.php
-
+```php
 $host = "localhost";
 $user = "root";
-$password = "";  // default for XAMPP
-$dbname = "food_rescue_network";
+$password = "";     // Default for XAMPP
+$dbname = "food";
 
-### 5️⃣ Run the Project
+### 🌐 5️⃣ Run the Project
 
-Open browser and visit:
+Once the project files are placed correctly and the database is configured:
+
+🖥️ Open your browser and enter the following URL:
 
 http://localhost/Food-Rescue-Network-System/
 
-## 🔑 Sample Login Credentials
-Role	Email	Password
-Admin	admin@gmail.com
-	admin123
-Donor	donor@gmail.com
-	donor123
-Charity	charity@gmail.com
-	charity123
-
-(You can change credentials in database after import)
-
 ## ✨ Key Features
-### 👤 Donor
 
-Donate surplus food
+### 👤 Donor Module
+- ✔ Donate surplus food  
+- ✔ Track donation history  
+- ✔ Manage donor profile  
 
-Track donation history
+---
 
-Manage donor profile
+### 🏥 Charity / NGO Module
+- ✔ Request available food  
+- ✔ Manage pickups and distribution  
+- ✔ Track received donations  
 
-### 🏥 Charity/NGO
+---
 
-Request available food
+### 🛠️ Admin Panel
+- ✔ Manage donors and charities  
+- ✔ Monitor food distribution  
+- ✔ Generate reports and analytics  
 
-Manage pickups/distribution
+---
 
-Track received donations
+## 🚀 Future Enhancements
+- 🟢 Email / SMS notifications  
+- 🟢 Live pickup location tracking (Google Maps API)  
+- 🟢 Admin analytics dashboard  
+- 🟢 Mobile-friendly responsive UI  
 
-### 🛠 Admin
+---
 
-Manage donors and charities
+## 👨‍💻 Developer
 
-Monitor food distribution
+**Name:** Rohan Atole  
+**GitHub:** [RohanAtole](https://github.com/RohanAtole)
 
-Generate reports and analytics
+---
 
-### 📌 Future Enhancements
+⭐ *If you like this project, please give it a star on GitHub!*
 
-Email / SMS notifications
-
-Live location tracking using Maps API
-
-Mobile-friendly interface
-
-Donation analytics dashboard
-
-### 👨‍💻 Developer
-
-Name: Rohan Atole
-GitHub: https://github.com/RohanAtole
 
 
 ---
