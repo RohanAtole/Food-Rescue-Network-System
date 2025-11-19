@@ -163,6 +163,17 @@ http://localhost/Food-Rescue-Network-System/
 
 ---
 
+## 📄 Project Documentation
+
+| Document Type | File |
+|---------------|------|
+| 📘 Project Report (DOCX) | [Download DOCX](food%20rescue%20network%20doc.docx) |
+| 📕 Project Report (PDF) | [Download PDF](food%20rescue%20network%20pdf.pdf) |
+| 📊 Project Presentation (PPT) | [Download PPT](food%20rescue%20network%20ppt.ppt) |
+
+> 📌 Click any file to **view or download** the project documents.
+
+---
 ## 📬 Contact
 
 📛 **Developer:** Rohan Atole  
