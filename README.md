@@ -85,6 +85,7 @@ Food Rescue Network System/
 ```bash
 git clone https://github.com/RohanAtole/Food-Rescue-Network-System.git
 ```
+---
 ### 📂 2️⃣ Move the Folder to Server Directory
 | Environment | Location |
 |-------------|----------|
@@ -117,8 +118,9 @@ $dbname = "food";
 Once the project files are placed correctly and the database is configured:
 
 🖥️ Open your browser and enter the following URL:
-
+```
 http://localhost/Food-Rescue-Network-System/
+```
 ---
 ## ✨ Key Features
 ---
